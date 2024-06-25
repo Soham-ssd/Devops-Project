@@ -1,9 +1,4 @@
-# PearlThoughts Interview Assessment
-# Scalable Notification Service Deployment on AWS
-
-## Introduction
-
-This project focuses on deploying a scalable, reliable, and maintainable notification system on AWS. The system consists of two primary microservices:
+This Project focuses on deploying a scalable, reliable, and maintainable notification system on AWS. The system consists of two primary microservices:
 - **Notification API**: Receives notification requests and queues them.
 - **Email Sender**: Processes messages from the queue and sends emails.
 
@@ -24,8 +19,7 @@ This project focuses on deploying a scalable, reliable, and maintainable notific
 Use one of the following tools to provision infrastructure:
 - Terraform
 - Terraform With AWS CDK
-- AWS CDK (TypeScript or Python)
-- Pulumi (TypeScript or Python)
+
 
 ### Deployment:
 - **Services**: Deploy the **Notification API** and **Email Sender** using AWS ECS Fargate.
@@ -101,19 +95,6 @@ Ensure the IaC code adheres to best practices, is well-documented, and structure
 10. **Test and Verify**: Ensure system correctness, scalability, and fault tolerance.
 11. **Document**: Prepare and include a README file explaining the deployment process and architecture.
 
-## Evaluation
-Your submission will be evaluated based on:
-- Quality, clarity, and maintainability of IaC code.
-- Robustness and appropriateness of deployment architecture.
-- Use and understanding of specified AWS services and best practices.
-- Clarity and completeness of documentation and operational instructions.
-
-## Submission
-Submit your IaC code, configuration files, and README as a ZIP file or a link to a version-controlled repository (e.g., GitHub).
-Fork the repo, complete the assessment, and send a pull request. 
-
----
-
 
 # NotificationWorkspace2
 
@@ -170,10 +151,3 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 Run `npx nx graph` to show the graph of the workspace.
 It will show tasks that you can run with Nx.
 
-- [Learn more about Exploring the Project Graph](https://nx.dev/core-features/explore-graph)
-
-## Connect with us!
-
-- [Join the community](https://nx.dev/community)
-- [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- [Follow us on Twitter](https://twitter.com/nxdevtools)
