@@ -1,4 +1,4 @@
-resource "aws_ecs_service" "notificationservice" {
+resoource "aws_ecs_service" "notificationservice" {
    task_definition = aws_ecs_task_definition.notificationapp.id
    cluster = aws_ecs_cluster.mycluster.id
    launch_type = "FARGATE"
